@@ -7,12 +7,12 @@ public class Main {
         Car car2 = new Car("blue", "Audi", 3);
         Car car3 = new Car("blue", "VW", 3);
 
+        Car car4 = new Car("black", "toyota", 5);
+        factory.buildCar(car4);
+
         factory.buildCar(car1);
         factory.buildCar(car2);
 	    factory.buildCar(car2);	
 
-        //schlechter code 
-        if (true) System.out.println("Programm running");
-        else {/*do nothing*/}
     }
 }
